@@ -10,9 +10,12 @@ Convert Excel (csv) to PGAdmin (SQL) due to analytics table being too large to f
 Understand the data. Try to figure out what values each column is trying to give and the type of value.
 ### Step 3
 Clean the data. Fix date formats, price conversions, wrong date format, null columns, etc.
+### Step 4
+Query the data to get results.
 
 ## Results
-This table 
+We have cleaned the data and you can find it in the cleaning_data.md.
+The results are shown in the starting_with_data.md and starting_with_questions.md.
 
 ## Challenges 
 1. Understanding the data. There is a lack of information in all the columns without any comments on what the column is trying to return. 
@@ -23,6 +26,7 @@ What is ordered quantity from the products table? Is it how many products the co
 I believe this would be better in the real world scenario, there would be much less missing and null data, we would come up with the data ourselves and have a much deeper understanding of what our table and columns are trying to return. In the real world, you can also ask the person that created the table what they are looking for.
 
 2. Not being able to update the table. I find it much more difficult to work with data without being able to update the table with clean values as I go along.
+Using Select query is like doing everything all at once while updating the table is like working step by step.
 
 ## Future Goals
 1. Fully understand the data.
